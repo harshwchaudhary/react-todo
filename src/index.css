@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: black;
+  border-radius: 10%;
+}
+
+.navbar {
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10%;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.navbar h1 {
+  margin: 10px 0;
+}
+
+.ToDo-list {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.ToDo-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+.ToDo-list li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.ToDo-list li:hover {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.ToDo-list .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.ToDo-list .author {
+  font-size: 0.9em;
+  color: #ddd;
+}
+.empty {
+  margin: 20px;
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  color: black;
+  border: 0;
+}
+input[type="submit"] {
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
+}
